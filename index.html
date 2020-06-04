@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>DROPMEOFF</title>
+  <!-- favicon icon for title -->
+  <link rel="icon" href="E:\web development\TinDog-Start-master\images\favicon.ico" />
+
+  <!-- Google fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- css style sheets -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font awesome website -->
+  <script src="https://kit.fontawesome.com/03279c22c5.js" crossorigin="anonymous"></script>
+  <!-- java script needed for the bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section id="title">
+    <div class="container-fluid">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">DropMeOff</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">contact</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">download</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="big-heading">A new way to share rides between students.</h1>
+          <!-- styled the button using the button component -->
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+        </div>
+        <div class"col-lg-6">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+    <div class="row">
+
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-check-circle fa-4x"></i>
+        <h3>Easy to use.</h3>
+        <p>So easy to use, you don't have to be a nerd.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <i class="icon far fa-money-bill-alt fa-4x"></i>
+        <h3>Less payment</h3>
+        <p>You don't have to pay a huge amount for the shared ride</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <i class="icon fas fa-stopwatch fa-4x"></i>
+        <h3>Fast access .</h3>
+        <p>Get the rides as quickly as possible.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="2000" data-pause="hover">
+      <div class="carousel-inner" style=" width:100%; height: 600px;">
+        <div class="carousel-item active">
+          <h2>I always had a trouble getting a ride after my long shifts. Dropmeoff helped me in such situations</h2>
+          <img class="testimonial-image" src="images/kailas.jpg" alt="kailas-profile">
+          <em>Sarnia, Ontario</em>
+
+        </div>
+        <div class="carousel-item">
+          <h2 class="testimonial-text"> I was always looking for such cheap and affordable ride shares and here i have my answers.</h2>
+          <img class="testimonial-image" src="images/hrishi.jpg" alt="lady-profile">
+          <em>Waterloo, Ontario</em>
+
+        </div>
+        <div class="carousel-item">
+
+          <h2 class="testimonial-text"> I still remeber the rainy night on which i missed my bus. The Dropmeoff riders didn't even mind the fact that i was all soggy.</h2>
+          <img class="testimonial-image" src="images/jibin.jpg" alt="lady-profile">
+          <em>Toronto, Ontario</em>
+
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2>A Plan for Every kind of customers</h2>
+    <p>Simple and affordable price plans for you.</p>
+
+    <div class="row">
+      <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
+
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Local ride</h3>
+          </div>
+          <div class="card-body">
+            <h2>$5</h2>
+            <p>A person get a local ride</p>
+            <p>Any distance less than 10km of circumference</p>
+            <p>One way</p>
+            <button type="button" class="btn btn-outline-dark">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6 col-sm-12">
+
+        <div class="card text-center">
+          <div class="card-header">
+            <h3>Ride outside the city</h3>
+          </div>
+          <div class="card-body">
+            <h3>Pre booking needed</h3>
+            <h2>Charges Depends</h2>
+            <p>One way or two way</p>
+            <button type="button" class="btn btn-dark">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-12 col-sm-12">
+
+        <div class="card text-center">
+          <div class="card-header">
+            <h3> Long Rides</h3>
+          </div>
+          <div class="card-body">
+            <h3>Book before atleast one day</h3>
+            <h2>Riders Charge</h2>
+            <p>Pirority Listing</p>
+            <button type="button" class="btn btn-dark">Sign Up</button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3>Find your own ride today.</h3>
+    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fab fa-twitter sm footer-icon"></i>
+    <i class="fab fa-facebook-f sm footer-icon"></i>
+    <i class="fab fa-instagram sm footer-icon"></i>
+    <i class="fas fa-envelope sm footer-icon"></i>
+
+    <p>© Copyright 2020 DropMeOff</p>
+
+  </footer>
+
+
+</body>
+
+</html>
